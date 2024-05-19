@@ -66,29 +66,3 @@ private fun merge(firstList: List<Int>, secondList: List<Int>): MutableList<Int>
     }
     return newList
 }
-
-fun main() {
-    val l1 = ListNode(7)
-    val l2 = ListNode(8)
-    val l3 = ListNode(10)
-    val l4 = ListNode(14)
-    l1.next = l2
-    l2.next = l3
-    l3.next = l4
-    l4.next = null
-
-    val l5 = ListNode(5)
-    val l6 = ListNode(7)
-    val l7 = ListNode(9)
-    val l8 = ListNode(123)
-    l5.next = l6
-    l6.next = l7
-    l7.next = l8
-    l8.next = null
-
-    var newList = mergeTwoLists(l1, l5)
-    while (newList != null) {
-        print("${newList.`val`} ")
-        newList = newList.next
-    }
-}
