@@ -22,6 +22,7 @@ class `24` {
     }
 }
 
+/*
 fun main() {
     val l1 = ListNode(1)
     val l2 = ListNode(4)
@@ -35,4 +36,4 @@ fun main() {
         print("${newList.`val`} ")
         newList = newList.next
     }
-}
+}*/
