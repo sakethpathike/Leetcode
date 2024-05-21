@@ -1,7 +1,5 @@
 package linkedlist
 
-import kotlin.time.measureTime
-
 class `82` {
     fun deleteDuplicates(head: ListNode?): ListNode? {
         if (head?.next == null) return head
@@ -36,6 +34,7 @@ class `82` {
     }
 }
 
+/*
 fun main() {
     //[1,2,3,3,4,4,5]
     val l1 = ListNode(1)
@@ -62,4 +61,4 @@ fun main() {
         print("${newList.`val`} ")
         newList = newList.next
     }
-}
+}*/
